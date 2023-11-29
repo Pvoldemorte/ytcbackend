@@ -38,3 +38,15 @@ export const addVideo = async (req, res, next) => {
       next(err);
     }
 }
+
+
+export const getVideo = async (req, res, next) => {
+  try {
+
+    // const collection = db.collection('Video');
+    const video = await Video.find({});
+    res.status(200).json(video);
+  } catch (err) {
+    next(err);
+  }
+};
