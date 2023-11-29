@@ -1,0 +1,34 @@
+{
+  "name": "backendyoutubeclone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pvoldemorte/ytcbackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pvoldemorte/ytcbackend/issues"
+  },
+  "homepage": "https://github.com/Pvoldemorte/ytcbackend#readme",
+  "dependencies": {
+    "@firebase/storage": "^0.12.0",
+    "@google-cloud/storage": "^7.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase": "^10.7.0",
+    "firebase-admin": "^11.11.1",
+    "firebase-functions": "^4.5.0",
+    "mongoose": "^8.0.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-firebase-storage": "^4.1.2",
+    "nodemon": "^3.0.1"
+  }
+}
